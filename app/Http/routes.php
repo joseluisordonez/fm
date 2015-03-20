@@ -19,3 +19,9 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+Route::get('/bar/{nom}/{ap?}', function($nom,$ap=null)
+{
+    return 'Hola '.$nom.' '.$ap;
+})-> where ('nom','[a-z]+');
+
