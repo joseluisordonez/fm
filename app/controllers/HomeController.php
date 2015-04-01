@@ -19,9 +19,13 @@ class HomeController extends BaseController {
 	{
 		return View::make('home');
 	}
-	public function nosotros()
+	public function somos()
 	{
-		return View::make('nosotros');
+		return View::make('somos');
+	}
+	public function login()
+	{
+		return View::make('login');
 	}
 
 }

@@ -12,14 +12,8 @@
 */
 
 Route::get('/', 'HomeController@showWelcome');
-Route::get('nosotros', 'HomeController@nosotros');
+Route::get('/home', 'HomeController@showWelcome');
+//homecontroller es el archivo controlador y @nosotros es la funcion en ese archivo
+Route::get('/somos', 'HomeController@somos');
+Route::get('/login', 'HomeController@login');
 
-
-//Route::get('/{pagina}', 'HomeController@paginas');
-
-/*Ejemplos de Rutas
-Route::get('/{pagina}', function($pagina)
-	{
-		return "hola ".$pagina;
-		
-		});*/

@@ -77,26 +77,26 @@
       <div class="container intro">
         <div class="row">
           <div class="col-sm-10">
-            <h2 class="text-color">Funerales a Futuro</h2>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, earum, minima hic magni inventore mollitia quo ipsum accusantium sunt et maiores cum molestiae omnis ipsa sit ut distinctio explicabo delectus.</p>
+            <h2 class="text-color">Algún día todos vamos a necesitar un servicio funerario!!!</h2>
+            <p class="text-muted">Tramítelo y cómprelo hoy mismo con nuestros planes a futuro</p>
           </div>
           <div class="col-sm-2">
-            <a href="#" class="btn btn-color btn-lg">Mas Información</a>
+            <a href="futuro" class="btn btn-color btn-lg">Mas Información</a>
           </div>
         </div> <!-- / .row -->
 
         <hr>
 
-        <!-- Our Services -->
+        <!-- Our Services Line 1-->
         <div class="row services">
           <div class="col-sm-4">
             <!-- Service Item #1 -->
             <div class="services-item">
               <i class="fa fa-gear fa-2x text-color"></i>
               <div class="services-item-desc">
-                <h3 class="primary-font">Crematorio</h3>
+                <h3 class="primary-font">Cremación</h3>
                 <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.
+                  Cada persona decide como quisiera ser despedida  y sabemos la importancia  de honrar su última voluntad. 
                 </p>
               </div>
             </div>
@@ -106,9 +106,9 @@
             <div class="services-item">
               <i class="fa fa-arrows-alt fa-2x text-color"></i>
               <div class="services-item-desc">
-                <h3 class="primary-font">Embalsamamiento</h3>
+                <h3 class="primary-font">Embalsamado</h3>
                 <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.
+                  Es un proceso que ayuda a conservar por más tiempo  y en óptimas condiciones  a la persona que se despide.
                 </p>
               </div>
             </div>
@@ -118,15 +118,55 @@
             <div class="services-item">
               <i class="fa fa-refresh fa-2x text-color"></i>
               <div class="services-item-desc">
-                <h3 class="primary-font">Traslados</h3>
+                <h3 class="primary-font">Urnas</h3>
                 <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.
+                  Contamos con diferentes modelos y tamaños.  fabricados en madera, mármol, acero inoxidable y otros materiales.
                 </p>
               </div>
             </div>
           </div>
         </div> <!-- / .row -->
 
+
+        <!-- Our Services Line 2 -->
+        <div class="row services">
+          <div class="col-sm-4">
+            <!-- Service Item #1 -->
+            <div class="services-item">
+              <i class="fa fa-gear fa-2x text-color"></i>
+              <div class="services-item-desc">
+                <h3 class="primary-font">Ataudes</h3>
+                <p class="text-muted">
+                  Contamos con gran variedad de ataudes, desde los tradicionales de madera hasta metalicos, doble tapa, etc.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <!-- Service Item #1 -->
+            <div class="services-item">
+              <i class="fa fa-arrows-alt fa-2x text-color"></i>
+              <div class="services-item-desc">
+                <h3 class="primary-font">Servicios Adicionales</h3>
+                <p class="text-muted">
+                  Ponemos a su disposición  una gama de servicios adicionales que harán mas comoda su estancia en la funeraria.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <!-- Service Item #1 -->
+            <div class="services-item">
+              <i class="fa fa-refresh fa-2x text-color"></i>
+              <div class="services-item-desc">
+                <h3 class="primary-font">Planes a Futuro</h3>
+                <p class="text-muted">
+                  Excelente plan para prepararse para ese momento tan dificil, desde $31,968.00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
         <!-- Portfolio -->
         <h2 class="headline text-color">
           <span class="border-color">Nuestras Capillas</span>

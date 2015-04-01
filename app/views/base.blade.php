@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <title>Funerales Modelo</title>
+    <title>Funerales & Crematorio Modelo</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -36,7 +36,10 @@
     <div class="mini-navbar mini-navbar-dark hidden-xs">
       <div class="container">
         <div class="col-sm-12">
-          <a href="#" class="pull-right"><i class="fa fa-sign-in"></i> Login</a>
+          <a href="login" class="pull-right"><i class="fa fa-sign-in"></i> Login</a>
+          <span class="phone">
+            <i class="fa fa-phone-square"></i> Tel.:  (625) 581.54.50
+          </span>
         </div>
       </div>
     </div>
@@ -59,9 +62,10 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="home" class="bg-hover-color">Inicio</a></li>
-            <li><a href="nosotros" class="bg-hover-color">Nosotros</a></li>
+            <li><a href="somos" class="bg-hover-color">Quienes Somos</a></li>
+            <li><a href="historia" class="bg-hover-color">Historia</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle bg-hover-color" data-toggle="dropdown">Servicios <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle bg-hover-color" data-toggle="dropdown">Nuestros Servicios <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="Crematorio" class="bg-hover-color">Crematorio</a></li>
                 <li><a href="Embalsamamiento" class="bg-hover-color">Embalsamamiento</a></li>
@@ -91,7 +95,8 @@
             <h3 class="text-color"><span class="border-color">Contacto</span></h3>
             <div class="content">
               <p>
-              Aldama y 4a. No. XXX<br />
+              Av. Aldama y 4a. No. 662<br />
+              Col. Centro<br/>
               Tel: (625) 581-54-50<br />
               Email: <a href="#">contacto@funeralesmodelo.com</a>
               </p>
@@ -115,7 +120,7 @@
           <div class="col-sm-4">
             <h3 class="text-color"><span>Horario</span></h3>
             <div class="content">
-              <p>Le atendemos con gusto de:<br />Lunes a Sabado de 8am a 6pm</p>
+              <p>Le atendemos con gusto:<br />Las 24 horas del día<br/> Los 365 días del año.</p>
             </div>
           </div>
         </div>
