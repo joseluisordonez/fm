@@ -11,7 +11,15 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', 'HomeController@showWelcome');
+Route::get('nosotros', 'HomeController@nosotros');
+
+
+//Route::get('/{pagina}', 'HomeController@paginas');
+
+/*Ejemplos de Rutas
+Route::get('/{pagina}', function($pagina)
+	{
+		return "hola ".$pagina;
+		
+		});*/
