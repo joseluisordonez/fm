@@ -21,7 +21,7 @@ class HomeController extends BaseController {
 	}
 	public function nosotros()
 	{
-		return View::make('nostros');
+		return View::make('nosotros');
 	}
 
 }
