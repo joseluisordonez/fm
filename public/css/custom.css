@@ -947,7 +947,7 @@ a.slideshow-arrow-next {
 /* ===== About Us Page ===== */
 
 .about-us-p img {
-	max-width: 40%;
+	max-width: 100%;
 	margin: 0 20px 20px 0;
 }
 

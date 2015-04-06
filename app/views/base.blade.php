@@ -55,26 +55,27 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand hidden-xs" href="index.html"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand hidden-xs" href="home"><img src="img/logo.png" alt=""></a>
         </div> <!-- / Navbar Header -->
 
         <!-- Navbar Links -->
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="home" class="bg-hover-color">Inicio</a></li>
-            <li><a href="somos" class="bg-hover-color">Quienes Somos</a></li>
+            <li><a href="quienessomos" class="bg-hover-color">Quienes Somos</a></li>
             <li><a href="historia" class="bg-hover-color">Historia</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle bg-hover-color" data-toggle="dropdown">Nuestros Servicios <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="Crematorio" class="bg-hover-color">Crematorio</a></li>
-                <li><a href="Embalsamamiento" class="bg-hover-color">Embalsamamiento</a></li>
-                <li><a href="Traslados" class="bg-hover-color">Traslado</a></li>
-                <li><a href="Floreria" class="bg-hover-color">Floreria</a></li>
-                <li><a href="Futuro" class="bg-hover-color">Funerales a Futuro</a></li>
+                <li><a href="servicios#cremacion" class="bg-hover-color">Cremación</a></li>
+                <li><a href="servicios#embalsamado" class="bg-hover-color">Embalsamamiento</a></li>
+                <li><a href="servicios#urnas" class="bg-hover-color">Urnas</a></li>
+                <li><a href="servicios#ataudes" class="bg-hover-color">Ataúdes</a></li>
+                <li><a href="servicios#adicionales" class="bg-hover-color">Servicios Adicionales</a></li>
+                
               </ul>
             </li>
-            <li><a href="contacto.html" class="bg-hover-color">Contacto</a></li>
+            <li><a href="contacto" class="bg-hover-color">Contacto</a></li>
           </ul>
         </div> <!-- / Navbar Links -->
       </div> <!-- / container -->

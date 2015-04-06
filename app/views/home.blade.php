@@ -92,7 +92,7 @@
           <div class="col-sm-4">
             <!-- Service Item #1 -->
             <div class="services-item">
-              <i class="fa fa-gear fa-2x text-color"></i>
+              <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
                 <h3 class="primary-font">Cremación</h3>
                 <p class="text-muted">
@@ -104,7 +104,7 @@
           <div class="col-sm-4">
             <!-- Service Item #1 -->
             <div class="services-item">
-              <i class="fa fa-arrows-alt fa-2x text-color"></i>
+              <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
                 <h3 class="primary-font">Embalsamado</h3>
                 <p class="text-muted">
@@ -116,7 +116,7 @@
           <div class="col-sm-4">
             <!-- Service Item #1 -->
             <div class="services-item">
-              <i class="fa fa-refresh fa-2x text-color"></i>
+              <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
                 <h3 class="primary-font">Urnas</h3>
                 <p class="text-muted">
@@ -133,7 +133,7 @@
           <div class="col-sm-4">
             <!-- Service Item #1 -->
             <div class="services-item">
-              <i class="fa fa-gear fa-2x text-color"></i>
+              <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
                 <h3 class="primary-font">Ataudes</h3>
                 <p class="text-muted">
@@ -145,7 +145,7 @@
           <div class="col-sm-4">
             <!-- Service Item #1 -->
             <div class="services-item">
-              <i class="fa fa-arrows-alt fa-2x text-color"></i>
+              <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
                 <h3 class="primary-font">Servicios Adicionales</h3>
                 <p class="text-muted">
@@ -157,7 +157,7 @@
           <div class="col-sm-4">
             <!-- Service Item #1 -->
             <div class="services-item">
-              <i class="fa fa-refresh fa-2x text-color"></i>
+              <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
                 <h3 class="primary-font">Planes a Futuro</h3>
                 <p class="text-muted">
@@ -169,56 +169,74 @@
         </div> <!-- / .row -->
         <!-- Portfolio -->
         <h2 class="headline text-color">
-          <span class="border-color">Nuestras Capillas</span>
+          <span class="border-color">Nuestras Instalaciones</span>
         </h2>
         <div class="row portfolio">
-          <div class="col-sm-4">
+          <div class="col-sm-3">
             <!-- Portfolio Item #1 -->
             <div class="portfolio-item">
-              <a href="#">
-                <img src="img/general-1.jpg" class="img-responsive" alt="...">
+              <a href="">              
+                <img src="img/funeraria.jpg" class="img-responsive" alt="...">
                 <div class="mask">
-                  Dato importante <span class="pull-right"></span>
-                </div>
-              </a>
+                  Desde Fuera <span class="pull-right"></span>
+                </div>   
+              </a>           
               <div class="portfolio-desc">
-                <h3 class="primary-font">Nombre de la Capilla</h3>
+                <h3 class="primary-font">Funerales Modelo</h3>
                 <p class="text-muted">
-                  Sed lacinia suscipit lacus non sodales. Pellentesque lacinia ornare justo eu tincidunt. Morbi ullamcorper sed ligula.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-3">
             <!-- Portfolio Item #2 -->
             <div class="portfolio-item">
               <a href="#">
-                <img src="img/general-2.jpg" class="img-responsive" alt="...">
+                <img src="img/capilla1.jpg" class="img-responsive" alt="...">
                 <div class="mask">
-                  Dato Importante <span class="pull-right"><span>
+                  Capillas <span class="pull-right"><span>
                 </div>
               </a>
               <div class="portfolio-desc">
-                <h3 class="primary-font">Nombre de la Capilla</h3>
+                <h3 class="primary-font">Capillas</h3>
                 <p class="text-muted">
-                  Sed lacinia suscipit lacus non sodales. Pellentesque lacinia ornare justo eu tincidunt. Morbi ullamcorper sed ligula.
+                  Nuestras capillas cuentan con lo mejor en 
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+            <div class="col-sm-3">
             <!-- Portfolio Item #3 -->
             <div class="portfolio-item">
               <a href="#">
-                <img src="img/general-3.jpg" class="img-responsive" alt="...">
+                <img src="img/cafeteria.jpg" class="img-responsive" alt="...">
                 <div class="mask">
-                  Dato importante <span class="pull-right"></span>
+                  Cafeteria <span class="pull-right"><span>
                 </div>
               </a>
               <div class="portfolio-desc">
-                <h3 class="primary-font">Nombre de la Capilla</h3>
+                <h3 class="primary-font">Cafeteria</h3>
                 <p class="text-muted">
-                  Sed lacinia suscipit lacus non sodales. Pellentesque lacinia ornare justo eu tincidunt. Morbi ullamcorper sed ligula.
+                  Contamos con una cafeteria en cada piso para su mayor comodidad
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <!-- Portfolio Item #4 -->
+            <div class="portfolio-item">
+              <a href="#">
+                <img src="img/sala.jpg" class="img-responsive" alt="...">
+                <div class="mask">
+                  Sala de Espera <span class="pull-right"></span>
+                </div>
+              </a>
+              <div class="portfolio-desc">
+                <h3 class="primary-font">Salas de Espera</h3>
+                <p class="text-muted">
+                  Nuestras salas de espera cuentan con aire acondicionado y etc etc
                 </p>
               </div>
             </div>
@@ -229,7 +247,7 @@
         <h2 class="headline text-color">
           <span class="border-color">Obituario</span>
         </h2>
-        <div class="row recent-blogs">
+        <!--<div class="row recent-blogs">
           <div class="col-sm-4">
             <div class="recent-blog">
               <img src="img/photo-1.jpg" alt="...">
@@ -269,7 +287,7 @@
               </div>
             </div>
           </div>
-        </div><!-- / .row -->
+        </div>--><!-- / .row -->
 
       </div> <!-- / .container -->
 
