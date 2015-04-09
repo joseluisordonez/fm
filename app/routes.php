@@ -10,7 +10,6 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
 Route::get('/', 'HomeController@showWelcome');
 Route::get('/home', 'HomeController@showWelcome');
 //homecontroller es el archivo controlador y @nosotros es la funcion en ese archivo

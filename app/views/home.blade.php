@@ -102,7 +102,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <!-- Service Item #1 -->
+            <!-- Service Item #2 -->
             <div class="services-item">
               <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
@@ -114,7 +114,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <!-- Service Item #1 -->
+            <!-- Service Item #3 -->
             <div class="services-item">
               <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
@@ -131,7 +131,7 @@
         <!-- Our Services Line 2 -->
         <div class="row services">
           <div class="col-sm-4">
-            <!-- Service Item #1 -->
+            <!-- Service Item #4 -->
             <div class="services-item">
               <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
@@ -143,7 +143,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <!-- Service Item #1 -->
+            <!-- Service Item #5 -->
             <div class="services-item">
               <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">
@@ -155,7 +155,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <!-- Service Item #1 -->
+            <!-- Service Item #6 -->
             <div class="services-item">
               <i class="fa fa-chevron-right fa-2x text-color"></i>
               <div class="services-item-desc">

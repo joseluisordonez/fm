@@ -61,10 +61,16 @@
         <!-- Navbar Links -->
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="home" class="bg-hover-color">Inicio</a></li>
-            <li><a href="quienessomos" class="bg-hover-color">Quienes Somos</a></li>
-            <li><a href="historia" class="bg-hover-color">Historia</a></li>
-            <li class="dropdown">
+            <li class="{{ Request::is( '/') ? 'active' : '' }}">
+              <a href="{{ URL::to( '/') }}">Incio</a>
+            </li>
+            <li class="{{ Request::is( 'quienessomos') ? 'active' : '' }}">
+              <a href="quienessomos">Quienes Somos</a>
+            </li>
+            <li class="{{ Request::is( 'historia') ? 'active' : '' }}">
+              <a href="historia">Historia</a>
+            </li>
+            <li class="dropdown {{ Request::is( 'servicios') ? 'active' : '' }}">
               <a href="#" class="dropdown-toggle bg-hover-color" data-toggle="dropdown">Nuestros Servicios <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="servicios#cremacion" class="bg-hover-color">Cremación</a></li>
@@ -75,7 +81,7 @@
                 
               </ul>
             </li>
-            <li><a href="contacto" class="bg-hover-color">Contacto</a></li>
+            <li class="{{ Request::is( 'contacto') ? 'active' : '' }}"><a href="contacto" class="bg-hover-color">Contacto</a></li>
           </ul>
         </div> <!-- / Navbar Links -->
       </div> <!-- / container -->
