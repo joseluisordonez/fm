@@ -10,27 +10,30 @@
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
             <div class="sign-form">
               <h3 class="first-child">Iniciar Sesion</h3>
+                {{-- Preguntamos si hay algún mensaje de error y si hay lo mostramos  --}}
+                @if(Session::has('mensaje_error'))
+                  <div class="info-board info-board-red">{{ Session::get('mensaje_error') }} </div>
+                @endif
               <hr>
-              <form role="form">
-                <label class="sr-only" for="user">Usuario</label>
+              {{ Form::open(array('url' => '/login')) }}
+                {{ Form::label('usuario', 'Nombre de usuario') }}
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                  <input class="form-control" id="user" placeholder="Usuario">
+                  {{ Form::text('username', Input::old('username'),array('class'=>'form-control') ); }}
                 </div>
                 <br>
-                <label class="sr-only" for="exampleInputPassword1">Usuario</label>
+                {{ Form::label('contraseña', 'Contraseña') }}
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                  {{ Form::password('password',array('class'=>'form-control')); }}
                 </div>
                 <div class="checkbox">
-                  <label>
-                    <input type="checkbox"> Recordarme
-                  </label>
+                  {{ Form::label('lblRememberme', 'Recordar contraseña') }}
+                  {{ Form::checkbox('rememberme', true) }}
                 </div>
-                <button type="submit" class="btn btn-color">Entrar</button>
+                {{ Form::submit('Entrar') }}
                 <hr>
-              </form>
+              {{ Form::close() }}
 
             </div>
           </div>

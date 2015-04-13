@@ -36,7 +36,12 @@
     <div class="mini-navbar mini-navbar-dark hidden-xs">
       <div class="container">
         <div class="col-sm-12">
-          <a href="login" class="pull-right"><i class="fa fa-sign-in"></i> Login</a>
+          @if (Auth::check())
+            <a href="logout" class="pull-right"><i class="fa fa-sign-out"></i> Logout</a>
+            <a href="login" class="pull-right"> {{ Auth::user()->name; }}</a>            
+          @else
+            <a href="login" class="pull-right"><i class="fa fa-sign-in"></i> Login</a>
+          @endif
           <span class="phone">
             <i class="fa fa-phone-square"></i> Tel.:  (625) 581.54.50
           </span>

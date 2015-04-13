@@ -11,10 +11,29 @@
 |
 */
 Route::get('/', 'HomeController@showWelcome');
-Route::get('/home', 'HomeController@showWelcome');
 //homecontroller es el archivo controlador y @nosotros es la funcion en ese archivo
 Route::get('/quienessomos', 'HomeController@quienessomos');
-Route::get('/login', 'HomeController@login');
 Route::get('/historia', 'HomeController@historia');
 Route::get('/contacto', 'HomeController@contacto');
 Route::get('/servicios', 'HomeController@servicios');
+
+/* 
+------------------------------------------------------------------------------
+Rutas para el Login
+------------------------------------------------------------------------------
+*/
+
+// Nos mostrará el formulario de login.
+Route::get('/login', 'AuthController@showLogin');
+
+// Validamos los datos de inicio de sesión.
+Route::post('/login', 'AuthController@postLogin');
+
+// Nos indica que las rutas que están dentro de él sólo serán mostradas si antes el usuario se ha autenticado.
+Route::group(array('before' => 'auth'), function()
+{
+    // Esta será nuestra ruta de bienvenida.
+  
+    // Esta ruta nos servirá para cerrar sesión.
+    Route::get('/logout', 'AuthController@logOut');
+});
