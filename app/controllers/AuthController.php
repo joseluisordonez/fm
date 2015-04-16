@@ -15,7 +15,7 @@ class AuthController extends BaseController {
         if (Auth::check())
         {
             // Si está autenticado lo mandamos a la raíz donde estara el mensaje de bienvenida.
-            return Redirect::to('/admin');
+            return redirect::to('/admin');
         }
         // Mostramos la vista login.blade.php (Recordemos que .blade.php se omite.)
         return View::make('login');
@@ -34,7 +34,7 @@ class AuthController extends BaseController {
         if(Auth::attempt($userdata, Input::get('remember-me', 0)))
         {
             // De ser datos válidos nos mandara a la bienvenida
-            return Redirect::to('/');
+            return Redirect::to('/admin');
         }
         // En caso de que la autenticación haya fallado manda un mensaje al formulario de login y también regresamos los valores enviados con withInput().
         return Redirect::to('login')
@@ -45,9 +45,13 @@ class AuthController extends BaseController {
      * Muestra el formulario de login mostrando un mensaje de que cerró sesión.
      */
     public function logOut()
-    {
-        Auth::logout();
-        return Redirect::to('/');//->with('mensaje_error', 'Tu sesión ha sido cerrada.');
+    {        
+            Auth::logout();
+            return Redirect::to('/');//->with('mensaje_error', 'Tu sesión ha sido cerrada.');        
         
+    }
+    public function showAdmin()
+    {              
+        return View::make('admin');    
     }
 }

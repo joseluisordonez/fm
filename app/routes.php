@@ -32,8 +32,17 @@ Route::post('/login', 'AuthController@postLogin');
 // Nos indica que las rutas que están dentro de él sólo serán mostradas si antes el usuario se ha autenticado.
 Route::group(array('before' => 'auth'), function()
 {
-    // Esta será nuestra ruta de bienvenida.
-  
+    // Esta será nuestra ruta de bienvenida del administrador
+  	Route::group(array('prefix'=>'admin'),function()
+  	{
+  		Route::get('/', 'AuthController@showAdmin');
+  	});
+  	
     // Esta ruta nos servirá para cerrar sesión.
     Route::get('/logout', 'AuthController@logOut');
+});
+
+App::missing(function($exception)
+{
+	return Response::view('error',array(), 404);
 });

@@ -39,5 +39,4 @@ class HomeController extends BaseController {
 	{
 		return View::make('servicios');
 	}
-
 }

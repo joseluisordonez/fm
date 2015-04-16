@@ -11,6 +11,8 @@
               <span class="border-color">Contáctanos</span>
             </h2>
             <p>Para Funerales Modelo nuestros clientes son lo mas importante, por ello le invitamos a ponerse en contacto con nosotros para ofrecerle información, o bien, para ayudarnos a mejorar con sus sugerencias.</p>
+            
+
             <form role="form">
               <div class="form-group">
                 <label for="email">Correo Electrónico</label>

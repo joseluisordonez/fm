@@ -211,7 +211,8 @@ Last change:	27/02/2014
 .body-blue .alt-p,
 .body-blue .color-jumbotron {
 	background: #2790B0;
-	background-image: radial-gradient(#79C9E2, #2790B0);
+	background-image: radial-gradient(#bfbfbf, #6e6e6e);
+	/*background-image: radial-gradient(#79C9E2, #2790B0);*/
 }
 .body-orange .not-found-p,
 .body-orange .alt-p,
