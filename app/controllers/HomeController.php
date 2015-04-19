@@ -31,12 +31,38 @@ class HomeController extends BaseController {
 	{
 		return View::make('historia');
 	}
-	public function contacto()
-	{
-		return View::make('contacto');
-	}
 	public function servicios()
 	{
 		return View::make('servicios');
+	}
+
+	/*------ Contacto ----------*/
+	public function showContacto()
+	{
+		$mensaje=null;
+		return View::make('contacto', array('mensaje'=>$mensaje));
+	}
+	public function postContacto()
+	{
+
+		$data = array(
+            'nombre' => Input::get('nombre'),
+            'email'=> Input::get('email'),
+            'mensaje'=> Input::get('mensaje')
+        );
+
+		$mensaje= '<div class="panel panel-blue"><div class="panel-heading">El mensaje se ha enviado con éxito</div></div>';
+
+        $fromEmail='admin@funeralesmodelo.com';
+        $fromName='Administrador';
+
+		Mail::send('emails/contacto', $data, function ($message) use ($fromEmail, $fromName){
+		$message->subject('Mensaje enviado desde pagina WEB');
+		$message->to('admin@funeralesmodelo.com');
+		});
+		
+		return View::make('contacto', array('mensaje'=>$mensaje));
+
+
 	}
 }

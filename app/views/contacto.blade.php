@@ -10,24 +10,23 @@
             <h2 class="headline first-child text-color">
               <span class="border-color">Contáctanos</span>
             </h2>
-            <p>Para Funerales Modelo nuestros clientes son lo mas importante, por ello le invitamos a ponerse en contacto con nosotros para ofrecerle información, o bien, para ayudarnos a mejorar con sus sugerencias.</p>
-            
-
-            <form role="form">
+            <p>Para Funerales Modelo nuestros clientes son lo mas importante, por ello le invitamos a ponerse en contacto con nosotros para ofrecerle información, o bien, para ayudarnos a mejorar con sus sugerencias.</p>        
+                  {{$mensaje}}
+            {{ Form::open(array('url' => '/contacto')) }}
               <div class="form-group">
-                <label for="email">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email" placeholder="Email">
+                {{ Form::label('nombre', 'Nombre') }}
+                {{ Form::input('nombre','nombre', null,array('class'=>'form-control', 'placeholder' => 'Nombre', 'type' =>'text') ); }}                
               </div>
               <div class="form-group">
-                <label for="name">Nombre</label>
-                <input type="text" class="form-control" id="name" placeholder="Nombre">
-              </div>
+                {{ Form::label('email', 'Correo Electrónico') }}
+                {{ Form::input('email','email', null,array('class'=>'form-control', 'placeholder' => 'Email', 'type' =>'Email') ); }}        
+              </div>              
               <div class="form-group">
-                <label for="message">Mensaje</label>
-                <textarea class="form-control" rows="3" id="message" placeholder="Mensaje"></textarea>
+                {{ Form::label('mensaje', 'Mensaje') }}
+                {{ Form::textarea('mensaje', null,array('class'=>'form-control', 'placeholder' => 'Mensaje', 'type' =>'text', 'rows'=>'3') ); }}                  
               </div>
-              <button type="submit" class="btn btn-lg btn-color">Enviar</button>
-            </form>
+              {{ Form::submit('Enviar', array('class'=> 'btn btn-lg btn-color')) }}            
+            {{ Form::close() }}
           </div>
           <div class="col-sm-4">
             <h2 class="headline first-child first-child-m text-color">

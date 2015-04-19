@@ -14,8 +14,18 @@ Route::get('/', 'HomeController@showWelcome');
 //homecontroller es el archivo controlador y @nosotros es la funcion en ese archivo
 Route::get('/quienessomos', 'HomeController@quienessomos');
 Route::get('/historia', 'HomeController@historia');
-Route::get('/contacto', 'HomeController@contacto');
 Route::get('/servicios', 'HomeController@servicios');
+
+/*
+------------------------------------------------------------------------------
+Rutas para el Contacto
+------------------------------------------------------------------------------
+*/
+
+Route::get('/contacto', 'HomeController@showContacto');
+Route::post('/contacto', 'HomeController@postContacto');
+
+
 
 /* 
 ------------------------------------------------------------------------------
