@@ -15,16 +15,12 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-6">
-                      <h1 class="animated slideInRight">Funerales Modelo<br /></h1>
-                      <p class="lead animated slideInLeft delay-1">Acompañandote en los momentos más dificiles.</p>
-                      <a class="btn btn-color animated slideInLeft delay-2">Ir a</a>
+                      <h1 class="animated slideInRight">Funerales a Futuro<br /></h1>
+                      <p class="lead animated slideInLeft delay-1">Contamos con excelentes planes a futuro.</p>
+                      <a href="servicios#cremacio" class="btn btn-color animated slideInLeft delay-2 ">Ir a</a>             
                     </div>
-                    <div class="col-sm-6">
-                         <div class="video hidden-xs">
-                        <div class="flex-video">
-                          <iframe src="http://www.youtube.com/embed/KebQ3XOAR5A" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>                
-                      </div>             
+                    <div class="col-sm-6 hidden-xs">
+                      <img class="img-responsive" src="img/logo2.png" alt="...">
                     </div>
                   </div>
                 </div>
@@ -36,10 +32,10 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-12">
-                      <h1 class="text-center animated fadeInDown">Velación</h1>
-                      <p class="lead text-center animated fadeInDown delay-1">Tres capillas para su comodidad.</p>
-                      <div class="text-center animated fadeInDown delay-2"><a class="btn btn-color pull-center">Ir a</a></div>
-                      <img class="img-responsive hidden-xs" src="img/capilla.png" alt="...">
+                      <h1 class="text-left animated fadeInDown">Velación</h1>
+                      <p class="lead text-left animated fadeInDown delay-1">Cinco capillas de valación <br/> con estacionamiento propio.</p>
+                      <div class="text-left animated fadeInDown delay-2">
+                        <a class="btn btn-color pull-center">Ir a</a></div>
                     </div>
                   </div>
                 </div>
@@ -52,7 +48,7 @@
                   <div class="row">
                     <div class="col-sm-6">
                       <h1 class="animated slideInRight">Traslados<br /></h1>
-                      <p class="lead animated slideInLeft delay-1">Contamos con una gran variedad de<br />vehiculos para el traslado.</p>
+                      <p class="lead animated slideInLeft delay-1">Dentro del País y al Extrangero</p>
                       <a class="btn btn-color animated slideInLeft delay-2">Ir a</a>
                     </div>
                     <div class="col-sm-6 hidden-xs">
@@ -137,7 +133,7 @@
               <div class="services-item-desc">
                 <h3 class="primary-font">Ataudes</h3>
                 <p class="text-muted">
-                  Contamos con gran variedad de ataudes, desde los tradicionales de madera hasta metalicos, doble tapa, etc.
+                  Contamos con gran variedad de ataudes, desde los tradicionales de madera económica, metalicos y maderas finas.
                 </p>
               </div>
             </div>
@@ -161,7 +157,7 @@
               <div class="services-item-desc">
                 <h3 class="primary-font">Planes a Futuro</h3>
                 <p class="text-muted">
-                  Excelente plan para prepararse para ese momento tan dificil, desde $31,968.00
+                  Excelente plan para prepararse para ese momento tan dificil.
                 </p>
               </div>
             </div>
@@ -178,14 +174,13 @@
               <a href="">              
                 <img src="img/funeraria.jpg" class="img-responsive" alt="...">
                 <div class="mask">
-                  Desde Fuera <span class="pull-right"></span>
+                  Nuestra Funeraria <span class="pull-right"></span>
                 </div>   
               </a>           
               <div class="portfolio-desc">
                 <h3 class="primary-font">Funerales Modelo</h3>
                 <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
+                  Fundado en 1955 por Armando y Tita Maldonado.
                 </p>
               </div>
             </div>
@@ -202,7 +197,7 @@
               <div class="portfolio-desc">
                 <h3 class="primary-font">Capillas</h3>
                 <p class="text-muted">
-                  Nuestras capillas cuentan con lo mejor en 
+                  Contamos con cinco capillas de velación con elevador a la planta alta para su mayor comodidad en la planta alta.
                 </p>
               </div>
             </div>
@@ -219,7 +214,7 @@
               <div class="portfolio-desc">
                 <h3 class="primary-font">Cafeteria</h3>
                 <p class="text-muted">
-                  Contamos con una cafeteria en cada piso para su mayor comodidad
+                  Contamos con una cafeteria en cada piso, con servicio 24 horas.
                 </p>
               </div>
             </div>
@@ -236,61 +231,88 @@
               <div class="portfolio-desc">
                 <h3 class="primary-font">Salas de Espera</h3>
                 <p class="text-muted">
-                  Nuestras salas de espera cuentan con aire acondicionado y etc etc
+                  Cómodas salas de espera con aire acondicionado y calefacción para que su estancia en nuestras instalaciones sea de la mejor calidad.
                 </p>
               </div>
             </div>
           </div>
         </div> <!-- / .row -->
 
-        <!-- Blog Posts -->
+        <!-- Obituario -->
         <h2 class="headline text-color">
           <span class="border-color">Obituario</span>
         </h2>
-        <!--<div class="row recent-blogs">
-          <div class="col-sm-4">
-            <div class="recent-blog">
-              <img src="img/photo-1.jpg" alt="...">
-              <div class="recent-blog-desc">
-                <h3 class="primary-font">
-                  <a href="#">José Luis Ordoñez Macias </a>
-                </h3>
-                <hr>
-                <p class="text-muted">Capilla 1</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, repellendus voluptatibus eius qui velit mpedit dignissimos?<br/>Misa: Catedral <br/> Hora: 3:00pm <br/> etc.</p>
-              </div>
-            </div>
+        @foreach($ObituarioArray as $Obituario)
+        <h4 class="headline text-color">Capilla {{$Obituario->capilla}}</h4>
+        <div class="row">
+          <div class="col-sm-12">
+            <h4><strong>{{$Obituario->nombre}}</strong></h4>
           </div>
-          <div class="col-sm-4">
-            <div class="recent-blog">
-              <img src="img/photo-1.jpg" alt="...">
-              <div class="recent-blog-desc">
-                <h3 class="primary-font">
-                  <a href="#">Pedro Perez Perez</a>
-                </h3>
-                <hr>
-                <p class="text-muted">Capilla 2</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, repellendus voluptatibus eius qui velit impedit dignissimos?<br/>Misa: Catedral <br/> Hora: 3:00pm <br/> etc.</p>
-              </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+              <strong>Fecha de Fallecimiento:</strong></br>
+              {{$Obituario->fallecimiento}}
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="recent-blog">
-              <img src="img/photo-1.jpg" alt="...">
-              <div class="recent-blog-desc">
-                <h3 class="primary-font">
-                  <a href="#">Noel Chaparro Flores</a>
-                </h3>
-                <hr>
-                <p class="text-muted">Capilla 3</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, repellendus voluptatibus eius qui velit impedit dignissimos?<br/>Misa: Catedral <br/> Hora: 3:00pm <br/> etc.</p>
-              </div>
+            <div class="col-sm-3">
+              <strong>Fecha de Funeral:</strong></br>
+              {{$Obituario->fechafuneral}}
             </div>
+            <div class="col-sm-3">
+            <strong>Panteon:</strong></br>
+            {{$Obituario->cementerio}}
           </div>
-        </div>--><!-- / .row -->
+        </div>
+        <h4>Servicio Religioso</h4>
+        <div class="row">
+        
+            <div class="col-sm-3 col-xs-3"><strong>Iglesia:</strong></div>
+            <div class="col-sm-2 col-xs-2"><strong>Hora Servicio:</strong></div>
+            <div class="col-sm-2 col-xs-2"><strong>Hora Salida:</strong></div>
+            <div class="col-sm-2 col-xs-2"><strong>Día Servicio:</strong></div>
+            <div class="col-sm-3 col-xs-3"><strong>Domicilio:</strong></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-xs-3">{{$Obituario->iglesia}}</div>
+            <div class="col-sm-2 col-xs-2">{{$Obituario->horaservicio}}</div>
+            <div class="col-sm-2 col-xs-2">{{$Obituario->salidadeservicio}}</div>
+            <div class="col-sm-2 col-xs-2">{{$Obituario->diaservicio}}</div>
+            <div class="col-sm-3 col-xs-3">{{$Obituario->domicilioiglesia}}</div>
+        </div>
+          @if ($Obituario->iglesia2)
+        <div class="row">
+            <div class="col-sm-3 col-xs-3">{{$Obituario->iglesia2}}</div>
+            <div class="col-sm-2 col-xs-2">{{$Obituario->horaservicio2}}</div>
+            <div class="col-sm-2 col-xs-2">{{$Obituario->salidadeservicio2}}</div>
+            <div class="col-sm-2 col-xs-2">{{$Obituario->diaservicio2}}</div>
+            <div class="col-sm-3 col-xs-3">{{$Obituario->domicilioiglesia2}}</div>
+        </div>
+          @endif
+        
+        @if ($Obituario->cremacion)
+        <h4>Cremación</h4>
+        <div class="row">
+          <div class="col-sm-3">
+            {{$Obituario->cremacion}}
+          </div>
+          <div class="col-sm-3">
+            {{$Obituario->horacremacion}}
+          </div>
+        </div>
+        @endif
+        @if ($Obituario->observaciones)
+        <h4>Observaciones</h4>
+        <div class="row">
+          <div class="col-sm-12">
+            {{$Obituario->observaciones}}
+          </div>
+        </div>
+        @endif
+        @endforeach
+        <!-- / .row -->
 
       </div> <!-- / .container -->
 
     </div> <!-- / .wrapper -->
-
+    
 @stop

@@ -15,7 +15,7 @@ Route::get('/', 'HomeController@showWelcome');
 Route::get('/quienessomos', 'HomeController@quienessomos');
 Route::get('/historia', 'HomeController@historia');
 Route::get('/servicios', 'HomeController@servicios');
-
+Route::get('/pantalla', 'HomeController@pantalla');
 /*
 ------------------------------------------------------------------------------
 Rutas para el Contacto
@@ -45,9 +45,9 @@ Route::group(array('before' => 'auth'), function()
     // Esta será nuestra ruta de bienvenida del administrador
   	Route::group(array('prefix'=>'admin'),function()
   	{
-  		Route::get('/', 'AuthController@showAdmin');
+  		Route::get('/', 'ObituarioController@index');
   	});
-  	
+  	Route::put('/{capilla}',['uses'=> 'ObituarioController@update']);
     // Esta ruta nos servirá para cerrar sesión.
     Route::get('/logout', 'AuthController@logOut');
 });

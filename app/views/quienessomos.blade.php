@@ -13,9 +13,9 @@
               <span class="border-color">Quienes Somos</span>
             </h2>
             <p>
-              Contamos con una historia de servicio, hemos  crecido conjuntamente con el desarrollo de nuestra ciudad y su gente.  Con más de 57 años de excelencia en servicios funerarios; somos una empresa Cuauhtemense.  Dedicada a servirle y ser  un apoyo.  Para usted y toda su familia.
+              Contamos con una historia de servicio, hemos  crecido conjuntamente con el desarrollo de nuestra ciudad y su gente.  Desde 1955 hemos procurado la excelencia en servicios funerarios; somos una empresa Cuauhtemense.  Dedicada a servirle y ser  un apoyo.  Para usted y toda su familia.
               <br /><br />
-              Este pensamiento no ha acompañado desde el principio y nos ha hecho crecer,  estamos convencidos de que la mejor  manera de relacionarnos  con las personas que buscan nuestros servicios,  es la forma humana, cálida y cercana.  Y lo comprobara en todo momento.  A través de todas y cada una de las personas que forman parte de este excelente equipo de trabajo.
+              Este pensamiento no ha acompañado desde el principio haciendonos crecer,  estamos convencidos de que la mejor  manera de relacionarnos  con las personas que buscan nuestros servicios,  es la forma humana, cálida y cercana. Lo comprobara en todo momento.  A través de todas y cada una de las personas que forman parte de este excelente equipo de trabajo.
             </p>
             <hr>
             <a href="contacto" class="btn btn-lg btn-color">Contactanos</a>
@@ -65,7 +65,7 @@
                <div class="col-sm-4">
                 <div class="info-board info-board-blue">
                 	<h3>Respeto</h3>
-                	<p>Ofrecemos siempre un trato apropiado  hacia las familias y sus acompañantes.</p>
+                	<p>Ofrecemos siempre un trato adecuado hacia el acaecido, su familia y acompañantes.</p>
                 </div>
               </div>
               <div class="col-sm-4">

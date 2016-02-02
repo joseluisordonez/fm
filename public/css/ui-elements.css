@@ -30,6 +30,42 @@ Last change:	27/02/2014
 	animation-delay: 1s;
 	-webkit-animation-delay: 1s;
 }
+.delay-4 {
+	animation-delay: 1.3s;
+	-webkit-animation-delay: 1.3s;
+}
+.delay-5 {
+	animation-delay: 1.6s;
+	-webkit-animation-delay: 1.6s;
+}
+.delay-6 {
+	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+}
+.delay-7 {
+	animation-delay: 2.3s;
+	-webkit-animation-delay: 2.3s;
+}
+.delay-8 {
+	animation-delay: 2.6s;
+	-webkit-animation-delay: 2.6s;
+}
+.delay-9 {
+	animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+}
+.delay-10 {
+	animation-delay: 3.3s;
+	-webkit-animation-delay: 3.3s;
+}
+.delay-11 {
+	animation-delay: 3.6s;
+	-webkit-animation-delay: 3.6s;
+}
+.delay-12 {
+	animation-delay: 4s;
+	-webkit-animation-delay: 4s;
+}
 .tab-1 {
 	margin-right: 15px;
 }

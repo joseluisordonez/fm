@@ -1,9 +1,9 @@
 <html>
 <head></head>
 <body>
-	<p>Nombre del Contacto: {{$nombre}}</p>
-	<p>Email del Contacto: {{$email}}</p>
-	<p>Mensaje:</p>
+	<p><strong>Nombre del Contacto:</strong> {{$nombre}}</p>
+	<p><strong>Email del Contacto:</strong> {{$email}}</p>
+	<p><strong>Mensaje:</strong></p>
 	{{$mensaje}}
 </body>
 </html>

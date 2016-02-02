@@ -36,9 +36,9 @@
               Av. Aldama No. 662<br />
               Col. Centro<br />
               Cd. Cuauhtémoc, Chih. <br />
-              Telefono: (625) 581-54-50<br />
-              Fax: (625) 581-54-50<br />
-              Email: <a href="#">contacto@funeralesmodelo.com</a>
+              Telefonos: (625) 582-04-50<br />
+              (625) 581-54-50 y (625) 582-52-78 <br/>
+              Email: <a href="#">funeralesmod@prodigy.net.mx</a>
             </p>
             <h2 class="headline text-color">
               <span class="border-color">Google Map</span>

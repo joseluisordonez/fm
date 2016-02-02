@@ -50,8 +50,5 @@ class AuthController extends BaseController {
             return Redirect::to('/');//->with('mensaje_error', 'Tu sesión ha sido cerrada.');        
         
     }
-    public function showAdmin()
-    {              
-        return View::make('admin');    
-    }
+    
 }

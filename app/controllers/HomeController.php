@@ -17,7 +17,8 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('home');
+		$ObituarioArray = obituario::where('estatus', '=', 1)-> take(5)->get();
+		return View::make('home')->with ('ObituarioArray',$ObituarioArray);
 	}
 	public function quienessomos()
 	{
@@ -30,6 +31,13 @@ class HomeController extends BaseController {
 	public function historia()
 	{
 		return View::make('historia');
+	}
+	public function pantalla()
+	{
+		$ObituarioPantalla = obituario::all();
+		$ObituarioArray = obituario::where('estatus', '=', 1)-> take(5)->get();
+		//regresa  la vista y 2 arreglos, uno con las capillas activas y otro con todas para detectar cambios
+		return View::make('pantalla')->with ('ObituarioArray',$ObituarioArray)->with('ObituarioPantalla',$ObituarioPantalla);    
 	}
 	public function servicios()
 	{
@@ -57,8 +65,8 @@ class HomeController extends BaseController {
         $fromName='Administrador';
 
 		Mail::send('emails/contacto', $data, function ($message) use ($fromEmail, $fromName){
-		$message->subject('Mensaje enviado desde pagina WEB');
-		$message->to('admin@funeralesmodelo.com');
+		$message->subject('Mensaje enviado desde pagina de contacto funeralesmodelo.com');
+		$message->to('funeralesmod@prodigy.net.mx');
 		});
 		
 		return View::make('contacto', array('mensaje'=>$mensaje));

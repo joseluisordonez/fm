@@ -43,7 +43,7 @@
             <a href="login" class="pull-right"><i class="fa fa-sign-in"></i> Login</a>
           @endif
           <span class="phone">
-            <i class="fa fa-phone-square"></i> Tel.:  (625) 581.54.50
+            <i class="fa fa-phone-square"></i> Tel.:  (625) 582.04.50
           </span>
         </div>
       </div>
@@ -60,14 +60,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand hidden-xs" href="home"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand hidden-xs" href="{{ URL::to( '/') }}"><img src="img/logo.png" alt=""></a>
         </div> <!-- / Navbar Header -->
 
         <!-- Navbar Links -->
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="{{ Request::is( '/') ? 'active' : '' }}">
-              <a href="{{ URL::to( '/') }}">Incio</a>
+              <a href="{{ URL::to( '/') }}">Inicio</a>
             </li>
             <li class="{{ Request::is( 'quienessomos') ? 'active' : '' }}">
               <a href="quienessomos">Quienes Somos</a>
@@ -103,33 +103,20 @@
       <div class="container">
         <div class="row">
           <!-- Contact Us -->
-          <div class="col-sm-4">
+          <div class="col-sm-6">
             <h3 class="text-color"><span class="border-color">Contacto</span></h3>
             <div class="content">
               <p>
               Av. Aldama y 4a. No. 662<br />
               Col. Centro<br/>
-              Tel: (625) 581-54-50<br />
-              Email: <a href="#">contacto@funeralesmodelo.com</a>
+              Tel: (625) 582-04-50<br />
+              Email: <a href="contacto">funeralesmod@prodigy.net.mx</a>
               </p>
             </div>
           </div>
-          <!-- Social icons -->
-          <div class="col-sm-4">
-            <h3 class="text-color"><span>Siguenos en</span></h3>
-            <div class="content social">
-              <p></p>
-              <ul class="list-inline">
-                  <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#" class="plus"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-          <!-- Subscribe -->
-          <div class="col-sm-4">
+                   
+          <!-- Horario -->
+          <div class="col-sm-6">
             <h3 class="text-color"><span>Horario</span></h3>
             <div class="content">
               <p>Le atendemos con gusto:<br />Las 24 horas del día<br/> Los 365 días del año.</p>
@@ -143,9 +130,12 @@
         </div>
         <!-- Copyrights -->
         <div class="row">
-          <div class="col-sm-12">
-            <p>&copy; Funerales Modelo 2015.</p>
+          <div class="col-sm-6">
+            <p>&copy; Funerales y Crematorio Modelo 2015.</p>
           </div>
+          <div class="col-sm-6 text-right">
+            <a href="http://pepeordonez.com/" target="_blank">pepeordonez.com</a>
+          </div>  
         </div>
       </div>
     </footer>

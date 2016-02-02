@@ -18,13 +18,23 @@ class CreateObituarioTable extends Migration {
             $table->string('nombre',100);
             $table->string('panteon',100);
             $table->string('iglesia',100);
+            $table->string('iglesia2',100);
+            $table->string('diaservicio',100);
+            $table->string('diaservicio2',100);
             $table->string('domicilioiglesia',100);
+            $table->string('domicilioiglesia2',100);
             $table->text('observaciones');
             $table->boolean('estatus');
+            $table->string('fallecimiento',100);
+            $table->string('cremacion',100);
+            $table->string('horacremacion',100);
             $table->integer('capilla');
-            $table->datetime('salidadeservicio');
-            $table->time('horaservicio');
-            $table->date('fechafuneral');
+            $table->string('salidadeservicio',40);
+            $table->string('salidadeservicio2',40);
+            $table->string('horaservicio',40);
+            $table->string('horaservicio2',40);
+            $table->string('fechafuneral',50);
+            $table->string('cementerio',100);
 
             $table->rememberToken();
             $table->timestamps();

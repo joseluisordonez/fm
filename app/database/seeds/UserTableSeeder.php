@@ -9,7 +9,7 @@ class UserTableSeeder extends Seeder {
             'username'  => 'admin',
             'email'     => 'admin@admin.com',
             'name'=> 'Administrador',
-            'password' => Hash::make('admin') // Hash::make() nos va generar una cadena con nuestra contraseña encriptada
+            'password' => Hash::make('model0') // Hash::make() nos va generar una cadena con nuestra contraseña encriptada
         ));
     }
 }
